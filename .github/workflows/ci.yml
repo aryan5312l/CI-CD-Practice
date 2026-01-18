@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,5 +18,5 @@ jobs:
         with:
           node-version: 18
 
-     - name: Run app check
-       run: node -v
+      - name: Run app check
+        run: node -v
